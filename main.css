@@ -3,17 +3,15 @@ body {
 }
 
 div.container {
-
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-areas:
     "header header"
     "main   aside"
     "footer footer";
-
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 header {
@@ -37,7 +35,7 @@ grid-area: footer;
 }
 
 @media (max-width: 600px) {
-  container {
+  div.container {
     grid-template-columns: 1fr;
     grid-template-areas:
       "header"
