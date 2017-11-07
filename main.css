@@ -15,23 +15,23 @@ div.container {
 }
 
 header {
-background-color: #ffff99;
-grid-area: header;
+  background-color: #ffff99;
+  grid-area: header;
 }
 
 main {
-background-color: #99ff99;
-grid-area: main;
+  background-color: #99ff99;
+  grid-area: main;
 }
 
 aside {
-background-color: #99ffff;
-grid-area: aside;
+  background-color: #99ffff;
+  grid-area: aside;
 }
 
 footer {
-background-color: #ff9999;
-grid-area: footer;
+  background-color: #ff9999;
+  grid-area: footer;
 }
 
 @media (max-width: 600px) {
